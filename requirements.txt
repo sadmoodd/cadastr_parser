@@ -1,0 +1,5 @@
+# pypdf==4.0.1            # Парсинг PDF (PyPDF) (опционально)
+pdfplumber       # Альтернатива для извлечения таблиц из PDF
+pandas             # Работа с данными
+openpyxl          # Запись в Excel (xlsx)
+python-dotenv      # Переменные окружения (опционально)

@@ -1012,3 +1012,29 @@
 .venv/lib/python3.12/site-packages/pip-24.0.dist-info/REQUESTED
 .venv/lib/python3.12/site-packages/pip-24.0.dist-info/top_level.txt
 .venv/lib/python3.12/site-packages/pip-24.0.dist-info/WHEEL
+.venv
+data/input/Выписка 64795 (1).pdf
+data/input/Выписка_из_ЕГРН_на_зем_участок_454_с_арендой_УК_Технопарк_ЛД.PDF
+data/input/Выписка_из_ЕГРН_с_арендой_УК_Технопарк_ЛД_3.PDF
+data/input/Выписка_из_ЕГРН_с_арендой_УК_Технопарк_ЛД_4.PDF
+data/input/Выписка_из_ЕГРН_с_арендой_УК_Технопарк_ЛД_5.PDF
+data/input/Выписка_из_ЕГРН_с_арендой_УК_Технопарк_ЛД_7.PDF
+data/input/Выписка_из_ЕГРН_с_арендой_УК_Технопарк_ЛД_8.PDF
+data/input/Выписка_из_ЕГРН_с_арендой_УК_Технопарк_ЛД_9.PDF
+data/input/Выписка_из_ЕГРН_с_арендой_УК_Технопарк_ЛД_10.PDF
+data/input/Договор_Аренды_зданий_УК_Технопарк_ЛД.PDF
+data/input/Здание д 56 690,3 кв.м..PDF
+data/input/Здание д 56 стр 1 1113,2 на уч 453.PDF
+data/input/Здание №1 - 425 УК Технопарк ЛД.pdf
+data/input/Здание №1 - 426 УК Технопарк ЛД.pdf
+data/input/ЗУ 71 аренда 6345.pdf
+data/input/ЗУ 72 аренда 6067.pdf
+data/input/ЗУ 453.PDF
+data/input/Склад_1_473_с_арендой_УК_Технопарк_ЛД.PDF
+data/input/Склад_2_475_с_арендой_УК_Технопарк_ЛД_1.PDF
+data/input/Склад_3_476_с_арендой_УК_Технопарк_ЛД.PDF
+data/input/Склад_4_474_с_арендой_УК_Технопарк_ЛД.PDF
+data/input/Сооружение_461_Склад_№1_на_зем_участке_72.pdf
+data/input/Сооружение_462_Склад_№1_на_зем_участке_71.pdf
+src/__pycache__/
+data/logs/
