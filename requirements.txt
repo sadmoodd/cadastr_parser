@@ -3,3 +3,4 @@ pdfplumber       # Альтернатива для извлечения табл
 pandas             # Работа с данными
 openpyxl          # Запись в Excel (xlsx)
 python-dotenv      # Переменные окружения (опционально)
+pypdf
