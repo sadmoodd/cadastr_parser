@@ -102,12 +102,12 @@ def log_file_processing_started(logger: logging.Logger, file_name: str, total_fi
     logger.info(f"[{current_index}/{total_files}] Начало обработки файла: {file_name}")
 
 
-def log_file_processing_success(logger: logging.Logger, file_name: str, cadastral_number: str = None):
-    """Логирует успешную обработку файла"""
-    msg = f"✓ Успешно: {file_name}"
+def log_file_processing_success(logger, pdf_name, cadastral_number=None, address=None):
+    logger.info(f"✓ Успешно: {pdf_name}")
     if cadastral_number:
-        msg += f" (Кадастр. номер: {cadastral_number})"
-    logger.info(msg)
+        logger.debug(f"  Кадастр. номер: {cadastral_number}")
+    if address:
+        logger.debug(f"  Адрес: {address}")
 
 
 def log_file_processing_error(logger: logging.Logger, file_name: str, error: Exception):
@@ -125,15 +125,13 @@ def log_extraction_warning(logger: logging.Logger, file_name: str, field_name: s
     )
 
 
-def log_summary(logger: logging.Logger, total_files: int, successful_rows: int, error_count: int, excel_file: str):
-    """Логирует итоговый отчет"""
-    logger.info("=" * 70)
-    logger.info(f"ИТОГИ ОБРАБОТКИ:")
-    logger.info(f"  - Всего обработано файлов: {total_files}")
-    logger.info(f"  - Успешно добавлено строк: {successful_rows}")
-    logger.info(f"  - Ошибок при обработке: {error_count}")
-    logger.info(f"  - Excel файл сохранен: {excel_file}")
-    logger.info("=" * 70)
+def log_summary(logger, successful, failed, total, excel_file=None):
+    logger.info(f"=== ИТОГИ ОБРАБОТКИ ===")
+    logger.info(f"Всего файлов: {total}")
+    logger.info(f"Успешно: {successful}")
+    logger.info(f"Ошибок: {failed}")
+    if excel_file:
+        logger.info(f"Excel файл: {excel_file}")
 
 
 # ============================================================================
